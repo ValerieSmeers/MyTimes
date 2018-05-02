@@ -124,7 +124,7 @@ header nav{
 .cat-ceo.img-content{
   background-image: url("../images/img-story-1.png");
 }
-.news-bites h3{
+.News-bites h3{
   margin-bottom: 41px;
   font-weight: bold;
   font-size: 16px;
@@ -143,6 +143,30 @@ header nav{
 .bite span{
   padding-left: 11px;
 }
-div{
-  border: 1px solid black;
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  margin: auto;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+footer .Title{
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+footer nav{
+  display: inline-block;
+  padding-left: 25px;
 }
